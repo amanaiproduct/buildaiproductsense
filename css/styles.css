@@ -376,7 +376,8 @@ ul {
 
 .terminal-body {
   padding: 20px;
-  min-height: 160px;
+  height: 200px;
+  overflow-y: auto;
   font-family: var(--font-mono);
   font-size: 0.85rem;
   line-height: 1.8;

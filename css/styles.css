@@ -1044,5 +1044,5 @@ ul {
   display: block;
   height: 1px;
   background: linear-gradient(to right, transparent, var(--divider), transparent);
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-2xl);
 }

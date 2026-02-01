@@ -930,7 +930,7 @@ ul {
   }
 
   .testimonial-card--featured {
-    grid-column: 1 / -1;
+    grid-column: auto;
   }
 
   .included-grid {

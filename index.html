@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build AI Product Sense | 2-Day Workshop for Product Teams</title>
+  <meta name="description" content="Give your team AI product sense. A 2-day intensive workshop where teams move from ChatGPT to building real AI products with Cursor and Claude Code. Led by Aman Khan (Arize AI) and Tal Raviv (Patreon, Riverside).">
+  <meta name="keywords" content="AI workshop, product management AI, AI product sense, Cursor training, Claude Code workshop, AI for PMs, product team training">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Build AI Product Sense | Workshop for Teams">
+  <meta property="og:description" content="2-day intensive workshop. Move your team from ChatGPT to engineering-grade AI tools.">
+  <meta property="og:url" content="https://buildaproductsense.com">
+  <meta property="og:site_name" content="Build AI Product Sense">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Build AI Product Sense | Workshop for Teams">
+  <meta name="twitter:description" content="2-day intensive workshop. Move your team from ChatGPT to engineering-grade AI tools.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Build AI Product Sense",
+    "description": "A 2-day intensive workshop where teams move from ChatGPT to building real AI products with Cursor and Claude Code.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Build AI Product Sense",
+      "url": "https://buildaproductsense.com"
+    },
+    "instructor": [
+      {
+        "@type": "Person",
+        "name": "Aman Khan",
+        "jobTitle": "Head of Product, Arize AI"
+      },
+      {
+        "@type": "Person",
+        "name": "Tal Raviv",
+        "jobTitle": "Early PM at Patreon, Riverside, Wix"
+      }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": "2500",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "51"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- NAVIGATION                                  -->
+  <!-- ═══════════════════════════════════════════ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-container">
+      <a href="#" class="nav-wordmark">Build AI Product Sense</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#problem" class="nav-link">The Problem</a>
+        <a href="#what-you-build" class="nav-link">What You Build</a>
+        <a href="#curriculum" class="nav-link">Curriculum</a>
+        <a href="#instructors" class="nav-link">Instructors</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="mailto:amanaiproduct@gmail.com,talsraviv@gmail.com?subject=Workshop%20Inquiry%20-%20Build%20AI%20Product%20Sense" class="btn btn-primary nav-cta">Schedule a Workshop</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- HERO                                        -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-headline fade-in-up">Give Your Team<br>AI Product Sense</h1>
+          <p class="hero-subtitle fade-in-up">A 2-day intensive workshop where your team moves from ChatGPT to building real AI products with engineering-grade tools.</p>
+          <div class="hero-ctas fade-in-up">
+            <a href="mailto:amanaiproduct@gmail.com,talsraviv@gmail.com?subject=Workshop%20Inquiry%20-%20Build%20AI%20Product%20Sense" class="btn btn-primary btn-lg">Schedule a Workshop</a>
+            <a href="#curriculum" class="btn btn-outline btn-lg">View Curriculum</a>
+          </div>
+          <div class="social-proof fade-in-up">
+            <span class="social-proof-item">
+              <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+              4.7/5 from 51 reviews
+            </span>
+            <span class="social-proof-divider"></span>
+            <span class="social-proof-item">Featured in Lenny's Newsletter</span>
+            <span class="social-proof-divider"></span>
+            <span class="social-proof-item">Teams from Apple, Google, Meta, Amazon</span>
+          </div>
+        </div>
+        <div class="hero-terminal fade-in-up">
+          <div class="terminal-window">
+            <div class="terminal-chrome">
+              <span class="terminal-dot terminal-dot--red"></span>
+              <span class="terminal-dot terminal-dot--yellow"></span>
+              <span class="terminal-dot terminal-dot--green"></span>
+            </div>
+            <div class="terminal-body" id="hero-terminal">
+              <div class="terminal-content"></div>
+              <span class="terminal-cursor"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- THE PROBLEM                                 -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--alt" id="problem">
+      <div class="container">
+        <h2 class="section-headline fade-in-up">Your Team Is Using AI Wrong</h2>
+        <div class="card-grid card-grid--3">
+          <div class="card card--dark fade-in-up">
+            <div class="card-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+            </div>
+            <h3 class="card-title">Stuck on ChatGPT</h3>
+            <p class="card-text">Most teams treat AI as a search replacement, missing the real power of coding agents and context engineering.</p>
+          </div>
+          <div class="card card--dark fade-in-up">
+            <div class="card-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3 class="card-title">Can't Evaluate AI Products</h3>
+            <p class="card-text">Without hands-on building experience, teams can't distinguish genuine AI capability from marketing hype.</p>
+          </div>
+          <div class="card card--dark fade-in-up">
+            <div class="card-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="card-title">No Prototyping Muscle</h3>
+            <p class="card-text">Ideas die in planning because nobody can spin up a working AI prototype in a meeting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- WHAT YOUR TEAM WILL BUILD                   -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section" id="what-you-build">
+      <div class="container">
+        <h2 class="section-headline fade-in-up">8 Hours. Real Products. Not Slides.</h2>
+
+        <!-- Block 1: Personal AI OS -->
+        <div class="feature-block fade-in-up">
+          <div class="feature-text">
+            <span class="feature-label">01</span>
+            <h3 class="feature-title">Personal AI OS</h3>
+            <p class="feature-description">Build a task management system integrated with Obsidian that uses AI agents to extract action items from meetings, organize notes, and automate your daily workflow.</p>
+          </div>
+          <div class="feature-terminal">
+            <div class="terminal-window">
+              <div class="terminal-chrome">
+                <span class="terminal-dot terminal-dot--red"></span>
+                <span class="terminal-dot terminal-dot--yellow"></span>
+                <span class="terminal-dot terminal-dot--green"></span>
+              </div>
+              <div class="terminal-body" data-typewriter="personal-os">
+                <div class="terminal-content"></div>
+                <span class="terminal-cursor"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 2: Custom AI Workflows -->
+        <div class="feature-block feature-block--reverse fade-in-up">
+          <div class="feature-text">
+            <span class="feature-label">02</span>
+            <h3 class="feature-title">Custom AI Workflows</h3>
+            <p class="feature-description">Design and implement RAG pipelines that let your agents query your own documents, codebases, and knowledge bases with precision and context awareness.</p>
+          </div>
+          <div class="feature-terminal">
+            <div class="terminal-window">
+              <div class="terminal-chrome">
+                <span class="terminal-dot terminal-dot--red"></span>
+                <span class="terminal-dot terminal-dot--yellow"></span>
+                <span class="terminal-dot terminal-dot--green"></span>
+              </div>
+              <div class="terminal-body" data-typewriter="ai-workflows">
+                <div class="terminal-content"></div>
+                <span class="terminal-cursor"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 3: Live Prototypes -->
+        <div class="feature-block fade-in-up">
+          <div class="feature-text">
+            <span class="feature-label">03</span>
+            <h3 class="feature-title">Live Prototypes</h3>
+            <p class="feature-description">Learn the Wizard of Oz prototyping methodology to spin up convincing AI product demos in minutes, not weeks. Validate ideas before writing production code.</p>
+          </div>
+          <div class="feature-terminal">
+            <div class="terminal-window">
+              <div class="terminal-chrome">
+                <span class="terminal-dot terminal-dot--red"></span>
+                <span class="terminal-dot terminal-dot--yellow"></span>
+                <span class="terminal-dot terminal-dot--green"></span>
+              </div>
+              <div class="terminal-body" data-typewriter="prototypes">
+                <div class="terminal-content"></div>
+                <span class="terminal-cursor"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 4: AI Product X-Ray Vision -->
+        <div class="feature-block feature-block--reverse fade-in-up">
+          <div class="feature-text">
+            <span class="feature-label">04</span>
+            <h3 class="feature-title">AI Product X-Ray Vision</h3>
+            <p class="feature-description">Deconstruct any AI product to understand its underlying architecture. Distinguish genuine innovation from marketing language and ask probing technical questions.</p>
+          </div>
+          <div class="feature-terminal">
+            <div class="terminal-window">
+              <div class="terminal-chrome">
+                <span class="terminal-dot terminal-dot--red"></span>
+                <span class="terminal-dot terminal-dot--yellow"></span>
+                <span class="terminal-dot terminal-dot--green"></span>
+              </div>
+              <div class="terminal-body" data-typewriter="xray">
+                <div class="terminal-content"></div>
+                <span class="terminal-cursor"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CURRICULUM                                  -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--alt" id="curriculum">
+      <div class="container">
+        <h2 class="section-headline fade-in-up">36 Lessons Across 2 Days</h2>
+        <div class="curriculum-grid">
+          <div class="curriculum-day fade-in-up">
+            <div class="curriculum-day-header">
+              <span class="curriculum-day-label">Day 1</span>
+              <h3 class="curriculum-day-title">Foundations &amp; Your Personal OS</h3>
+              <span class="curriculum-day-hours">4 hours</span>
+            </div>
+            <ul class="curriculum-list">
+              <li>Cursor and Claude Code fundamentals</li>
+              <li>System prompts and agent instruction files</li>
+              <li>Context engineering and few-shot prompting</li>
+              <li>Obsidian integration and markdown workflows</li>
+              <li>Shell commands and git workflows</li>
+              <li>Building your Personal AI OS</li>
+              <li>Task extraction and automation pipelines</li>
+              <li>Hands-on collaborative building sessions</li>
+            </ul>
+          </div>
+          <div class="curriculum-day fade-in-up">
+            <div class="curriculum-day-header">
+              <span class="curriculum-day-label">Day 2</span>
+              <h3 class="curriculum-day-title">Advanced AI Architecture</h3>
+              <span class="curriculum-day-hours">4 hours</span>
+            </div>
+            <ul class="curriculum-list">
+              <li>RAG pipelines (with and without indexing)</li>
+              <li>MCP server design and implementation</li>
+              <li>Multi-agent systems and sub-agents</li>
+              <li>Browser tools and API integration</li>
+              <li>Wizard of Oz prototyping methodology</li>
+              <li>LLM optimization and evaluation</li>
+              <li>AI product deconstruction frameworks</li>
+              <li>Live prototype building workshop</li>
+            </ul>
+          </div>
+        </div>
+        <p class="curriculum-note fade-in-up">Plus 30-minute breaks and optional office hours before each session. Zero homework&mdash;all building happens live.</p>
+        <div class="section-cta fade-in-up">
+          <a href="mailto:amanaiproduct@gmail.com,talsraviv@gmail.com?subject=Workshop%20Inquiry%20-%20Build%20AI%20Product%20Sense" class="btn btn-primary btn-lg">Schedule a Workshop</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- WHO THIS IS FOR                             -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section" id="audience">
+      <div class="container">
+        <h2 class="section-headline fade-in-up">Built for Leaders, Not Just Engineers</h2>
+        <div class="card-grid card-grid--4">
+          <div class="card card--light fade-in-up">
+            <div class="card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="card-title">Product Leaders</h3>
+            <p class="card-text">VPs and Directors who need to speak the language of AI and guide their teams with hands-on understanding.</p>
+          </div>
+          <div class="card card--light fade-in-up">
+            <div class="card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="card-title">C-Suite Executives</h3>
+            <p class="card-text">CTOs, CPOs, and CEOs evaluating AI business models who need to separate genuine capability from hype.</p>
+          </div>
+          <div class="card card--light fade-in-up">
+            <div class="card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <h3 class="card-title">Non-Technical PMs</h3>
+            <p class="card-text">Product managers seeking deeper technical intuition to collaborate effectively with engineering on AI features.</p>
+          </div>
+          <div class="card card--light fade-in-up">
+            <div class="card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="card-title">Teams in AI Transformation</h3>
+            <p class="card-text">Entire product orgs preparing for AI-first workflows who need shared vocabulary and practical skills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- INSTRUCTORS                                 -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--alt" id="instructors">
+      <div class="container">
+        <h2 class="section-headline fade-in-up">Your Instructors</h2>
+        <div class="instructors-grid">
+          <div class="instructor-card fade-in-up">
+            <div class="instructor-photo-wrap">
+              <img src="assets/images/aman-khan.jpg" alt="Aman Khan" class="instructor-photo" loading="lazy">
+            </div>
+            <h3 class="instructor-name">Aman Khan</h3>
+            <p class="instructor-title">Head of Product, Arize AI</p>
+            <p class="instructor-bio">Led the deeplearning.ai course on evaluating AI agents. Featured in Lenny's Newsletter. Previously at Apple, Spotify, Cruise, and Zipline. UC Berkeley alum.</p>
+            <div class="instructor-logos">
+              <span class="logo-tag">Apple</span>
+              <span class="logo-tag">Spotify</span>
+              <span class="logo-tag">Cruise</span>
+              <span class="logo-tag">Zipline</span>
+            </div>
+          </div>
+          <div class="instructor-card fade-in-up">
+            <div class="instructor-photo-wrap">
+              <img src="assets/images/tal-raviv.jpg" alt="Tal Raviv" class="instructor-photo" loading="lazy">
+            </div>
+            <h3 class="instructor-name">Tal Raviv</h3>
+            <p class="instructor-title">Early PM at Patreon, Riverside, Wix</p>
+            <p class="instructor-bio">Trained 20,000+ product people. Guest on Lenny's Podcast. Featured 3x in Lenny's Newsletter. Built products at Patreon, Riverside, Wix, AppsFlyer, and DuckDuckGo.</p>
+            <div class="instructor-logos">
+              <span class="logo-tag">Patreon</span>
+              <span class="logo-tag">Riverside</span>
+              <span class="logo-tag">Wix</span>
+              <span class="logo-tag">DuckDuckGo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- TESTIMONIALS                                -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <h2 class="section-headline fade-in-up">What Past Participants Say</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card testimonial-card--featured fade-in-up">
+            <blockquote class="testimonial-quote">"One of the most high-leverage courses I've taken&hellip; helps develop better product sense about what's valuable versus hype."</blockquote>
+            <div class="testimonial-author">
+              <span class="testimonial-name">Workshop Graduate</span>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in-up">
+            <blockquote class="testimonial-quote">"As someone without coding experience, this made the technical side feel approachable and fun."</blockquote>
+            <div class="testimonial-author">
+              <span class="testimonial-name">Non-Technical PM</span>
+            </div>
+          </div>
+          <div class="testimonial-card fade-in-up">
+            <blockquote class="testimonial-quote">"Watching Aman build an AI agent while explaining evals and observability was eye-opening."</blockquote>
+            <div class="testimonial-author">
+              <span class="testimonial-name">Product Executive</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- WHAT'S INCLUDED                             -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--alt" id="included">
+      <div class="container">
+        <h2 class="section-headline fade-in-up">Everything Your Team Gets</h2>
+        <div class="included-grid">
+          <div class="included-item fade-in-up">
+            <div class="included-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h4 class="included-title">8 Hours Live Instruction</h4>
+            <p class="included-text">Two full days of hands-on, collaborative building with expert instructors.</p>
+          </div>
+          <div class="included-item fade-in-up">
+            <div class="included-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h4 class="included-title">Lifetime WhatsApp Access</h4>
+            <p class="included-text">Direct 1:1 access to both instructors for ongoing questions and support.</p>
+          </div>
+          <div class="included-item fade-in-up">
+            <div class="included-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h4 class="included-title">Debugging Support</h4>
+            <p class="included-text">Professional engineer and PM debugging support when you get stuck building.</p>
+          </div>
+          <div class="included-item fade-in-up">
+            <div class="included-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            </div>
+            <h4 class="included-title">Lifetime Recordings</h4>
+            <p class="included-text">Full session recordings for your team to reference and rewatch anytime.</p>
+          </div>
+          <div class="included-item fade-in-up">
+            <div class="included-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h4 class="included-title">Certificate of Completion</h4>
+            <p class="included-text">Official certificate for your professional development records.</p>
+          </div>
+          <div class="included-item fade-in-up">
+            <div class="included-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h4 class="included-title">Maven Guarantee</h4>
+            <p class="included-text">Full refund available until halfway through the course. No risk.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PRICING / FINAL CTA                         -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--cta" id="pricing">
+      <div class="container">
+        <h2 class="section-headline fade-in-up">Ready to Build AI Product Sense?</h2>
+        <div class="pricing-card fade-in-up">
+          <div class="pricing-amount">$2,500 <span class="pricing-per">per person</span></div>
+          <p class="pricing-note">Volume discounts available for teams of 5+</p>
+          <a href="mailto:amanaiproduct@gmail.com,talsraviv@gmail.com?subject=Workshop%20Inquiry%20-%20Build%20AI%20Product%20Sense" class="btn btn-primary btn-xl">Schedule a Workshop</a>
+          <p class="pricing-contact">Questions? Email <a href="mailto:amanaiproduct@gmail.com">amanaiproduct@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- FOOTER                                      -->
+  <!-- ═══════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-wordmark">Build AI Product Sense</p>
+        <div class="footer-links">
+          <a href="https://maven.com/aman-khan/ai-product-sense" target="_blank" rel="noopener noreferrer">Maven Course</a>
+          <a href="mailto:amanaiproduct@gmail.com,talsraviv@gmail.com?subject=Workshop%20Inquiry%20-%20Build%20AI%20Product%20Sense">Contact</a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Build AI Product Sense. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/typewriter.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

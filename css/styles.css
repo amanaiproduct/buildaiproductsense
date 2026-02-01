@@ -713,7 +713,15 @@ ul {
 .testimonial-name {
   font-weight: 600;
   font-size: 0.9rem;
+  color: var(--ink);
+  display: block;
+}
+
+.testimonial-role {
+  font-size: 0.85rem;
   color: var(--ink-light);
+  display: block;
+  margin-top: 2px;
 }
 
 /* ═══════════════════════════════════════════

@@ -236,7 +236,7 @@ ul {
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
 .nav-link {
@@ -882,6 +882,15 @@ ul {
    ═══════════════════════════════════════════ */
 
 @media (min-width: 768px) {
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .nav-cta {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+
   .section-headline {
     font-size: 2rem;
   }
@@ -944,6 +953,14 @@ ul {
    ═══════════════════════════════════════════ */
 
 @media (min-width: 1024px) {
+  .nav-menu {
+    gap: var(--space-md);
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
   .section-headline {
     font-size: 2.5rem;
   }

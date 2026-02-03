@@ -208,9 +208,8 @@
 <p>Which model do we personally use to get work done? When it comes to individual use, we treat ourselves to the latest and greatest models [a <a href="#footnote-smaller-models">footnote on smaller models</a>].</p>
 <ol><li>For writing, complex planning, and nuanced life advice (as of the time of this post), we reach for Claude Opus. (We also found it’s the best for experiencing this post from inside Cursor.)</li><li>Its cousin, Sonnet, is our workhorse for tasks involving lots of context, with a 1M token context window (and slightly faster responses).</li></ol>
 <p>Zooming out, there’s a subtle lesson in Cursor’s model dropdown: <strong>there are only a few frontier LLMs, and they’re available to all product teams.</strong> Innovation is how we apply them.</p>
-<p>Make a habit of switching models for tasks you care about. Over time, you’ll develop genuine opinions about model tradeoffs—the kind of intuition that’s hard to get from benchmarks alone.</p>
-<img src="/magicschoolbus/images/image27.png" alt="" style="max-width:100%;height:auto;">
-<h3>Step 6: Inspect your agent’s tool calls</h3>
+<p>Make a habit of switching models for tasks you care about. Over time, you'll develop genuine opinions about model tradeoffs—the kind of intuition that's hard to get from benchmarks alone.</p>
+<h3>Step 6: Inspect your agent's tool calls</h3>
 <p>LLMs can only produce text, but when they take action (edit a file, fetch data, search the web), they’re calling tools. And <em>tool calling</em> is a distinct skill from everything else we usually notice about LLMs.</p>
 <p>Now ask your agent, <code>Can you walk me through each step (tool/thinking/reasoning/anything else) you used to accomplish this task?</code></p>
 <p>In our test, our LLM reported that:</p>
